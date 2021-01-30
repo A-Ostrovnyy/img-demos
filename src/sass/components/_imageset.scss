@@ -1,0 +1,25 @@
+.imageset_link {
+    display: block;
+    margin: 25px 15px;
+}
+
+.imageset_block {
+    padding: 25px 0;
+}
+
+.imageset_title {
+    margin: 10px 0;
+    padding: 0 15px;
+    font-size: 24px;
+}
+
+.imageset_bg {
+    width: 100%;
+    min-height: 500px;
+    background: image-set( "../img/cat_1x.jpg" 1x,
+                            "../img/cat_2x.jpg" 2x,
+                            "../img/cat_3x.jpg" 3x);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

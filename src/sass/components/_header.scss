@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background: white;
+}
+
+.nav {
+    width: auto;
+    margin: 0 auto;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

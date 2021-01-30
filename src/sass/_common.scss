@@ -1,0 +1,14 @@
+body {
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.out {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    @include r(1000) {
+        max-width: 1000px;
+    }
+}
